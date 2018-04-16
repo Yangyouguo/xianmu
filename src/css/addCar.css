@@ -1,0 +1,93 @@
+#addCar { width: 1200px; margin: 0px auto; }
+
+.addCar_d { border: 1px solid #ccc; }
+
+.addCar_d img { width: 285px; height: 115px; }
+
+.addCar_d_r { float: right; }
+
+.addCar_d_r li { float: left; font-size: 24px; color: #BBB; margin-left: 40px; padding-top: 75px; }
+
+.addCar_d_r li:nth-child(3) { margin-right: 25px; }
+
+.addCar_d_r li:hover { color: red; border-bottom: 2px solid red; line-height: 40px; }
+
+.gwd { float: left; margin-bottom: 30px; }
+
+.gwd li { float: left; margin-top: 40px; }
+
+.gwd li:nth-child(1) { padding-right: 955px; font-size: 24px; }
+
+.gwd li:nth-child(2) a { color: red; font-size: 20px; }
+
+.datalist { border: 1px solid #ccc; width: 1200px; border-collapse: collapse; }
+
+.datalist td, .datalist th { padding: 5px 10px; border: 1px solid #ccc; }
+
+.datalist tr.even { background-color: #efefef; }
+
+.datalist tr.selected { background-color: #fc0; color: #fff; }
+
+.m_car .container { width: 1200px; margin: 0px auto; position: relative; }
+
+#btnFx { position: absolute; left: 45px; top: 107px; }
+
+.m_car .spxx { font-size: 14px; }
+
+.m_car .spxx span { padding: 80px; }
+
+.m_car .spxx span:nth-child(5) { margin-left: -25px; }
+
+.m_car .spxx span:nth-child(6) { padding-right: 21px; }
+
+.m_car .spxx_1 { font-size: 14px; color: #000; line-height: 50px; }
+
+.m_car .spxx_1 span:nth-child(2) { float: right; margin-right: 21px; }
+
+.m_car .shihui { font-size: 14px; }
+
+.m_car .shihui span:nth-child(1) { display: block; float: left; color: red; border: 1px dashed red; width: 68px; height: 32px; font-size: 14px; line-height: 32px; text-align: center; }
+
+.m_car .shihui span:nth-child(2) { display: block; float: left; margin-left: 50px; line-height: 32px; }
+
+.m_car .spxx_2 { font-size: 14px; }
+
+.m_car .spxx_2 .ctp img { width: 100px; height: 100px; margin: 35px 0px; }
+
+.m_car .spxx_2 .ctn { position: absolute; left: 155px; top: 295px; }
+
+.m_car .spxx_2 span:nth-child(3) { display: block; position: absolute; left: 155px; top: 320px; }
+
+.m_car .spxx_2 span:nth-child(4) { display: block; position: absolute; left: 155px; top: 340px; }
+
+.m_car .spxx_2 span:nth-child(5) { display: block; position: absolute; left: 240px; top: 340px; }
+
+.m_car .spxx_2 span:nth-child(6) { display: block; position: absolute; left: 410px; top: 295px; }
+
+.m_car .spxx_2 span:nth-child(7) { display: block; position: absolute; left: 410px; top: 320px; }
+
+.m_car .spxx_2 span:nth-child(8) { display: block; position: absolute; left: 565px; top: 295px; }
+
+.m_car .spxx_2 span:nth-child(9) { display: block; position: absolute; left: 565px; top: 315px; }
+
+.m_car .spxx_2 span:nth-child(10) { display: block; position: absolute; left: 970px; top: 305px; }
+
+.m_car .spxx_2 span:nth-child(11) { display: block; position: absolute; left: 1130px; top: 320px; }
+
+.m_car .spxx_2 span:nth-child(12) { display: block; position: absolute; left: 735px; top: 320px; font-size: 20px; width: 23px; height: 30px; border: 1px solid #ccc; text-align: center; }
+
+.m_car .spxx_2 span:nth-child(13) { display: block; position: absolute; left: 817px; top: 320px; font-size: 20px; width: 23px; height: 30px; border: 1px solid #ccc; text-align: center; }
+
+.m_car .spxx_2 input { width: 63px; height: 30px; border: 1px solid #ccc; position: absolute; left: 756px; top: 320px; }
+
+.m_car .spxx_2 a { display: block; position: absolute; left: 1100px; top: 280px; }
+
+.m_car .jiesuan { font-size: 18px; }
+
+.m_car .jiesuan span { display: block; float: left; margin-right: 239px; }
+
+.m_car .jiesuan span:nth-child(2) { margin-right: 0px; }
+
+.m_car .jiesuan span:nth-child(3) { margin-right: 0px; margin-left: 20px; font-size: 20px; color: red; }
+
+.m_car .jiesuan span:nth-child(4) { margin-right: 0px; margin-left: 50px; width: 70px; height: 30px; border: 1px solid #ccc; background: red; }

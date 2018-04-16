@@ -1,0 +1,120 @@
+#box .container {
+  width: 1200px;
+  #shangjia {
+    img {
+      width: 280px;
+      height: 110px;
+    }
+    ul {
+      float: left;
+      li {
+        float: left;
+        width: 280px;
+        height: 300px;
+        position: relative;
+      }
+      .stu {
+        float: left;
+        width: 280px;
+        height: 300px;
+        img {
+          &:nth-child(1) {
+            float: left;
+            width: 360px;
+            height: 110px;
+          }
+          &:nth-child(2), &:nth-child(3) {
+            width: 120px;
+            height: 110px;
+          }
+          &:nth-child(4) {
+            position: absolute;
+            left: 240px;
+            top: 110px;
+            width: 120px;
+            height: 110px;
+          }
+        }
+      }
+    }
+  }
+  #zhidao {
+    .zdt {
+      float: left;
+      background: #BBBBBB;
+      padding-left: 114px;
+      margin-top: -50px;
+      li {
+        width: 250px;
+        float: left;
+        margin-right: 0px;
+        font-size: 20px;
+        line-height: 48px;
+        padding-left: 77px;
+        &:nth-child(1) {
+          margin-left: -113px;
+          padding-left: 0px;
+        }
+        &:nth-child(2) {
+          margin-left: -130px;
+        }
+        &:nth-child(3) {
+          padding-left: 0px;
+        }
+        &:nth-child(4) {
+          margin-left: -120px;
+        }
+        &:nth-child(5) {
+          margin-left: 0px;
+        }
+        &:nth-child(6) {
+          margin-right: 0px;
+          margin-left: -51px;
+        }
+      }
+    }
+    .zd {
+      float: left;
+      margin-left: 0px;
+      width: 167px;
+      &:nth-child(1), &:nth-child(2) {
+        margin-left: -4px;
+      }
+      &:nth-child(3) {
+        margin-left: 30px;
+      }
+      &:nth-child(4) {
+        margin-left: 10px;
+      }
+      &:nth-child(5) {
+        margin-left: 40px;
+      }
+      &:nth-child(6) {
+        margin-left: 80px;
+      }
+      &:nth-child(7) {
+        margin-left: 34px;
+      }
+      li a {
+        display: block;
+        font-size: 14px;
+        line-height: 38px;
+        padding: 0px 12px;
+        text-decoration: none;
+        color: #4E4539;
+        margin-left: -5px;
+      }
+    }
+  }
+  #footer {
+    h5 {
+      text-align: center;
+      font-size: 16px;
+      color: #787878;
+      margin: 15px 0px;
+    }
+    .f img:nth-child(1) {
+      margin-left: 440px;
+    }
+  }
+}

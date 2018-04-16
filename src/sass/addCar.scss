@@ -1,0 +1,255 @@
+#addCar {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.addCar_d {
+  border: 1px solid #ccc;
+  img {
+    width: 285px;
+    height: 115px;
+  }
+}
+
+.addCar_d_r {
+  float: right;
+  li {
+    float: left;
+    font-size: 24px;
+    color: #BBB;
+    margin-left: 40px;
+    padding-top: 75px;
+    &:nth-child(3) {
+      margin-right: 25px;
+    }
+    &:hover {
+      color: red;
+      border-bottom: 2px solid red;
+      line-height: 40px;
+    }
+  }
+}
+
+.gwd {
+  float: left;
+  margin-bottom: 30px;
+  li {
+    float: left;
+    margin-top: 40px;
+    &:nth-child(1) {
+      padding-right: 955px;
+      font-size: 24px;
+    }
+    &:nth-child(2) a {
+      color: red;
+      font-size: 20px;
+    }
+  }
+}
+
+.datalist {
+  border: 1px solid #ccc;
+  width: 1200px;
+  border-collapse: collapse;
+  td, th {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  tr {
+    &.even {
+      background-color: #efefef;
+    }
+    &.selected {
+      background-color: #fc0;
+      color: #fff;
+    }
+  }
+}
+
+.m_car .container {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+
+#btnFx {
+  position: absolute;
+  left: 45px;
+  top: 107px;
+}
+
+.m_car {
+  .spxx {
+    font-size: 14px;
+    span {
+      padding: 80px;
+      &:nth-child(5) {
+        margin-left: -25px;
+      }
+      &:nth-child(6) {
+        padding-right: 21px;
+      }
+    }
+  }
+  .spxx_1 {
+    font-size: 14px;
+    color: #000;
+    line-height: 50px;
+    span:nth-child(2) {
+      float: right;
+      margin-right: 21px;
+    }
+  }
+  .shihui {
+    font-size: 14px;
+    span {
+      &:nth-child(1) {
+        display: block;
+        float: left;
+        color: red;
+        border: 1px dashed red;
+        width: 68px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+      }
+      &:nth-child(2) {
+        display: block;
+        float: left;
+        margin-left: 50px;
+        line-height: 32px;
+      }
+    }
+  }
+  .spxx_2 {
+    font-size: 14px;
+    .ctp img {
+      width: 100px;
+      height: 100px;
+      margin: 35px 0px;
+    }
+    .ctn {
+      position: absolute;
+      left: 155px;
+      top: 295px;
+    }
+    span {
+      &:nth-child(3) {
+        display: block;
+        position: absolute;
+        left: 155px;
+        top: 320px;
+      }
+      &:nth-child(4) {
+        display: block;
+        position: absolute;
+        left: 155px;
+        top: 340px;
+      }
+      &:nth-child(5) {
+        display: block;
+        position: absolute;
+        left: 240px;
+        top: 340px;
+      }
+      &:nth-child(6) {
+        display: block;
+        position: absolute;
+        left: 410px;
+        top: 295px;
+      }
+      &:nth-child(7) {
+        display: block;
+        position: absolute;
+        left: 410px;
+        top: 320px;
+      }
+      &:nth-child(8) {
+        display: block;
+        position: absolute;
+        left: 565px;
+        top: 295px;
+      }
+      &:nth-child(9) {
+        display: block;
+        position: absolute;
+        left: 565px;
+        top: 315px;
+      }
+      &:nth-child(10) {
+        display: block;
+        position: absolute;
+        left: 970px;
+        top: 305px;
+      }
+      &:nth-child(11) {
+        display: block;
+        position: absolute;
+        left: 1130px;
+        top: 320px;
+      }
+      &:nth-child(12) {
+        display: block;
+        position: absolute;
+        left: 735px;
+        top: 320px;
+        font-size: 20px;
+        width: 23px;
+        height: 30px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+      &:nth-child(13) {
+        display: block;
+        position: absolute;
+        left: 817px;
+        top: 320px;
+        font-size: 20px;
+        width: 23px;
+        height: 30px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+    }
+    input {
+      width: 63px;
+      height: 30px;
+      border: 1px solid #ccc;
+      position: absolute;
+      left: 756px;
+      top: 320px;
+    }
+    a {
+      display: block;
+      position: absolute;
+      left: 1100px;
+      top: 280px;
+    }
+  }
+  .jiesuan {
+    font-size: 18px;
+    span {
+      display: block;
+      float: left;
+      margin-right: 239px;
+      &:nth-child(2) {
+        margin-right: 0px;
+      }
+      &:nth-child(3) {
+        margin-right: 0px;
+        margin-left: 20px;
+        font-size: 20px;
+        color: red;
+      }
+      &:nth-child(4) {
+        margin-right: 0px;
+        margin-left: 50px;
+        width: 70px;
+        height: 30px;
+        border: 1px solid #ccc;
+        background: red;
+      }
+    }
+  }
+}

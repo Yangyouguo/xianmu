@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>记录商品浏览记录</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/details.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="../lib/jquery-xzoom/jquery.xZoom.css">
+    <script src="../lib/jquery-xzoom/jquery.xZoom.js"></script>
+    <script type="text/javascript" src="../js/datails.js"></script>
+    <script type="text/javascript" src="../js/car1.js"></script>
+    <script>
+        jQuery(function($){
+            $('.content').xZoom({
+                // height:100,
+                // position:'top'
+            })
+        });
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <!-- <nav></nav> -->
+    <!-- car -->
+    <div id="car">
+        <div class="container">
+            <ul class="daohang">
+                    <li><a href="">所有商品></a></li>
+                    <li><a href="">鞋履></a></li>
+                    <li><a href="">男鞋></a></li>
+                    <li><a href="car.html">休闲鞋></a></li>
+            </ul>
+            <div class="xh">
+                <div class="tab">
+                    <header class="smallList">
+                        <div><img src="../img/car.jpg" alt="" class="xt"/></div>
+                        <div><img src="../img/car1.jpg" alt="" /></div>
+                        <div><img src="../img/car.jpg" alt="" /></div>
+                        <div><img src="../img/car1.jpg" alt="" /></div>
+                        <div><img src="../img/car.jpg" alt="" /></div>
+                    </header>
+                    <div class="content">
+                        <div class="ss"><img src="../img/car.jpg" data-big="../img/car.jpg"/></div>
+                        <div><img src="../img/car1.jpg" alt="" /></div>
+                        <div><img src="../img/car.jpg" alt="" /></div>
+                        <div><img src="../img/car1.jpg" alt="" /></div>
+                        <div><img src="../img/car.jpg" alt="" /></div>
+                    </div>
+                </div>
+                <!-- xq:详情 -->
+                <div class="xq">
+                    <ul class="bTi">
+                        <li class="title">凡洛 18新品老爹鞋男ins超火的鞋子休闲运动鞋女原宿韩版街拍款学生潮鞋</li>
+                    </ul>
+                    <ul class="xiangqing">
+                        <li>售价：<span class="jiaGe"></span></li>
+                        <li>吊牌价：￥239</li>
+                        <li><a href="">3折</a></li>
+                        <li>vip价：￥22</li>
+                        <li>svip价：￥10</li>
+                        <li><a href="">会员规则</a></li>
+                    </ul>
+                    <ul class="qingkuang">
+                        <li>销量3</li>
+                        <li>累积评价<span>--</span></li>
+                        <li>送邦购积分10</li>
+                    </ul>
+                    <ul class="leixing">
+                        <li>颜色：白色<span><img src="../img/car.jpg" alt="" class="st"/></span></li>
+                        <li>尺码：请选择尺码<span>40</span></li>
+                        <li>购买数量:<span class="jian">-</span><input type="text" /><span class="jia">+</span></li>
+                        <li class="gw">加入购物车</li>
+                        <li class="xiu"><a href="">浏览更多:休闲鞋</a></li>
+                    </ul>
+                    <ul class="ts">
+                        <h3>温馨提示：</h3>
+                        <li>此商品不可使用邦购红包</li>
+                        <li>此商品不可使用积分</li>
+                        <li>此商品由第三方品牌供应商发货</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 浏览记录 -->
+    <div class="goods"></div>
+    <div class="car_x">
+        <div class="container">
+            <!-- 分享，点赞 -->
+            <div class="fd">
+                <ul class="fenxiang">
+                    <li>商品编号：A52352</li>
+                    <li><img src="../img/fx.png" height="24" width="61" alt="" class="fd_f"/>
+                        <div class="fd_1">
+                            <ul>
+                                <li><a href=""><img src="../img/qk.png" alt="" />qq空间</a></li>
+                                <li><a href=""><img src="../img/qk.png" alt="" />新浪微博</a></li>
+                                <li><a href=""><img src="../img/qk.png" alt="" />腾讯微博</a></li>
+                                <li><a href=""><img src="../img/qk.png" alt="" />人人网</a></li>
+                                <li><a href=""><img src="../img/qk.png" alt="" />微信</a></li>
+                                <li><a href=""><img src="../img/qk.png" alt="" />更多</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><img src="../img/dainzan.png" height="24" width="72" alt="" /></li>
+                </ul>
+            </div>
+            <div class="history">
+                <h1>你最近的浏览记录</h1>
+            </div>
+            <div class="Tab">
+                <header>
+                    <div>商品详情</div>
+                    <div>商品评价（33）</div>
+                    <div>商品须知</div>
+                </header>
+                <div class="Content">
+                    <div><img src="../img/car_r2.png" alt="" /></div>
+                    <div>足球更激烈，我是c罗，我热爱足球的狂热</div>
+                    <div>羽毛球很文艺，我是林丹，卫冕舍我其谁</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer></footer>
+</body>
+</html>

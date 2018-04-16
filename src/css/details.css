@@ -1,0 +1,140 @@
+@charset "UTF-8";
+#Box { width: 1200px; margin: 0px auto; }
+
+#car { width: 1200px; margin: 0px auto; }
+
+#car .container { border-top: 1px solid #ccc; width: 1200px; /*overflow-x: hidden;*/ }
+
+#car .container .daohang { float: left; width: 1200px; margin-top: 48px; margin-bottom: 15px; }
+
+#car .container .daohang li { float: left; }
+
+#car .container .daohang li a { display: block; font-size: 16px; }
+
+#car .tab { width: 460px; height: 725px; float: left; /*background:#EEE;*/ position: relative; }
+
+#car .tab header { overflow: hidden; position: absolute; left: 0px; top: 625px; }
+
+#car .tab header div { float: left; margin-right: 25px; width: 72px; height: 72px; }
+
+#car .tab header div img { width: 70px; height: 70px; }
+
+#car .tab header div:nth-child(5) { margin-right: 0px; }
+
+#car .tab .active { border: 1px solid red; }
+
+#car .tab .content { min-height: 610px; }
+
+#car .tab .content img { width: 460px; height: 603px; }
+
+#car .xq { width: 740px; height: 725px; float: right; padding-left: 63px; }
+
+#car .xq .bTi li { font-size: 24px; color: #000; margin-top: 37px; margin-bottom: 27px; }
+
+#car .xq .xiangqing { width: 688px; height: 110px; background: #DDDDDD; float: left; }
+
+#car .xq .xiangqing li { font-size: 14px; color: #555; float: left; padding-right: 280px; margin-top: 23px; margin-left: 20px; }
+
+#car .xq .xiangqing li:nth-child(1) { padding-right: 0px; position: relative; }
+
+#car .xq .xiangqing li:nth-child(1) .jiaGe { display: block; width: 80px; height: 30px; position: absolute; left: 45px; top: -10px; font-size: 30px; color: red; }
+
+#car .xq .xiangqing li:nth-child(2) { padding-left: 165px; }
+
+#car .xq .xiangqing li:nth-child(4) { padding-right: 100px; }
+
+#car .xq .xiangqing li:nth-child(3) { padding-right: 0px; }
+
+#car .xq .xiangqing li:nth-child(5) { padding-right: 285px; }
+
+#car .xq .xiangqing li:nth-child(6) { padding: 0px 0px; }
+
+#car .qingkuang { float: left; margin-top: 25px; width: 830px; padding-bottom: 25px; }
+
+#car .qingkuang li { float: left; padding-right: 100px; height: 23px; }
+
+#car .qingkuang li:nth-child(2) { border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding-left: 30px; padding-right: 30px; position: relative; }
+
+#car .qingkuang li:nth-child(2) span { display: block; color: red; position: absolute; left: 100px; top: 0px; }
+
+#car .qingkuang li:nth-child(3) { padding-left: 30px; }
+
+#car .leixing li:nth-child(1) span img { display: block; width: 100px; height: 100px; margin-top: 10px; }
+
+#car .leixing li:nth-child(2) { margin-top: 25px; }
+
+#car .leixing li:nth-child(2) span { display: block; width: 30px; height: 30px; border: 1px solid #ccc; text-align: center; line-height: 30px; margin-top: 5px; margin-bottom: 20px; }
+
+#car .leixing li:nth-child(2) span:active { border: 1px solid red; }
+
+#car .leixing .jian { display: block; width: 20px; height: 20px; border: 1px solid #ccc; margin-top: -20px; margin-left: 80px; }
+
+#car .leixing input { height: 20px; width: 50px; float: left; margin-top: -20px; margin-left: 100px; border: 1px solid #ccc; }
+
+#car .leixing .jia { display: block; width: 20px; height: 20px; border: 1px solid #ccc; float: left; margin-top: -20px; margin-left: 150px; }
+
+#car .leixing .gw { margin: 25px 0px; width: 250px; height: 45px; font-size: 16px; line-height: 45px; color: #fff; background: red; text-align: center; }
+
+#car .leixing .gw a { display: block; }
+
+#car .leixing .xiu { margin: 25px 0px; }
+
+#car .ts { float: left; }
+
+#car .ts h3 { float: left; }
+
+#car .ts li { float: left; list-style-type: circle; padding-top: 0px; padding-right: 200px; margin-bottom: 10px; }
+
+#car .ts li:nth-child(2) { margin-left: 30px; }
+
+#car .ts li:nth-child(4) { margin-left: 110px; margin-bottom: 0px; }
+
+/*#car .xh{}*/
+.car_x { overflow: hidden; width: 1500px; margin: 0px auto; margin-top: 10px; position: relative; }
+
+/*商品样式*/
+ul { list-style: none; padding: 0; margin: 0; }
+
+.goods { display: none; width: 0; height: 0; }
+
+.goods h1 { font-size: 24px; }
+
+.goods img { width: 320px; border: 2px solid #ddd; }
+
+.price { color: #f00; font-weight: bold; }
+
+.price::before { content: "￥"; }
+
+/*分享，点赞*/
+.fd { margin-bottom: 70px; position: absolute; left: 149px; top: 30px; }
+
+.fenxiang { float: left; }
+
+.fenxiang li { float: left; font-size: 20px; line-height: 30px; padding-right: 30px; }
+
+.fd_f:hover { display: block; }
+
+.fd_1 { width: 175px; width: 255px; border: 1px solid #ccc; z-index: 10000; display: none; }
+
+/*记录*/
+.history { bottom: 0; padding: 0 22px; width: 220px; border-left: 5px solid #ddd; font-size: 12px; border: 1px solid #ccc; margin-top: 100px; }
+
+.history h1 { font-weight: normal; font-size: 20px; padding: 10px 0px; background: #3F3F3F; }
+
+.history img { width: 80px; margin: 10px 0px; }
+
+.history h3 { margin: 0; border-bottom: 1px solid #ddd; padding: 10px 0; }
+
+.history h4 { margin: 10px 0px; }
+
+.Tab { width: 979px; float: right; margin: 50px; position: absolute; left: 319px; top: 30px; overflow: hidden; }
+
+.Tab header { overflow: hidden; }
+
+.Tab header div { float: left; margin-right: 5px; padding: 0px 60px; border-bottom: 1px solid #ccc; font-size: 20px; }
+
+.Tab header div:nth-child(2) { border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+
+.Tab .active { color: #f00; }
+
+.Tab .Content img { width: 980px; }

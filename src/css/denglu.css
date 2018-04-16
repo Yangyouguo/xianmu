@@ -1,0 +1,91 @@
+* { margin: 0px; padding: 0px; }
+
+ul, li { list-style: none; }
+
+.container { width: 1200px; margin: 0px auto; }
+
+.logo { height: 124px; margin-left: 0px; }
+
+.logo img { height: 124px; }
+
+.tupian { width: 800px; height: 540px; }
+
+.tupian img { height: 540px; width: 800px; }
+
+.dl { float: right; width: 425px; position: absolute; left: 974px; top: 124px; }
+
+.dl .tab { width: 425px; }
+
+.dl .tab header { overflow: hidden; }
+
+.dl .tab header div { float: left; width: 137px; height: 44px; line-height: 44px; padding-left: 40px; border: 1px solid #ccc; }
+
+.dl .tab .active { border-top: 2px solid #f00; border-bottom: 0px; }
+
+.dl .tab .content { width: 411px; min-height: 320px; }
+
+.xBox_1 { position: relative; }
+
+.xBox_1 .name { float: left; margin-left: 10px; margin-top: 8px; margin-right: 15px; margin-left: 22px; color: #ccc; }
+
+.xBox_1 .kahao { float: left; margin-left: 8px; margin-top: 8px; margin-right: 15px; margin-left: 35px; color: #ccc; }
+
+.xBox_1 #username { width: 290px; height: 35px; }
+
+.xBox_1 .pass { float: left; margin-left: 10px; margin-top: 8px; margin-right: 15px; color: #ccc; }
+
+.xBox_1 .kpass { float: left; margin-left: 21px; margin-top: 8px; margin-right: 15px; color: #ccc; }
+
+.xBox_1 #password { width: 290px; height: 35px; }
+
+.xBox_1 .f3 { position: relative; padding-bottom: 40px; }
+
+.xBox_1 #code { position: absolute; left: 175px; top: 0px; width: 138px; height: 35px; font-size: 24px; line-height: 35px; text-align: center; display: inline-block; margin-left: 10px; background-color: #f5f5f5; border: 1px solid #ddd; vertical-align: middle; }
+
+.xBox_1 .f3 .yan { float: left; margin-left: 8px; margin-top: 8px; margin-right: 15px; margin-left: 22px; color: #ccc; }
+
+.xBox_1 .f3 #yanzheng { width: 78px; height: 35px; position: absolute; left: 93px; top: 0px; }
+
+.xBox_1 .btn { width: 190px; margin-left: 10px; font-size: 20px; line-height: 30px; background: red; }
+
+.xBox_1 .f1 { position: relative; padding-top: 40px; }
+
+.xBox_1 .f3 { position: relative; padding-top: -10px; margin-bottom: 40px; }
+
+.xBox_1 #huan, .xBox_1 #huan2, .xBox_1 #huan3 { position: absolute; left: 330px; top: 10px; }
+
+#jd1 { margin-left: 95px; }
+
+#jd2 { margin-left: 20px; margin-bottom: 25px; }
+
+.xBox_1 .btn { margin-left: 95px; width: 130px; height: 40px; color: #fff; }
+
+.xBox_1 .zhmm { display: block; color: #000; margin-left: 240px; margin-top: -30px; }
+
+.xBox_1 h3 { border-bottom: 1px solid #ccc; margin: 40px 10px; }
+
+/*........................*/
+/*........................*/
+.xBox_2 { position: relative; height: 35px; margin-bottom: 20px; }
+
+.xBox_2 h3 { font-size: 14px; color: #000; float: left; margin-left: 23px; }
+
+.xBox_2 .btn1 { width: 120px; height: 35px; position: absolute; left: 260px; top: 10px; font-size: 14px; line-height: 35px; }
+
+.xBox_3 { width: 380px; height: 117px; border: 1px solid #ccc; margin-left: 23px; }
+
+.xBox_3 h2 { font-size: 14px; line-height: 40px; color: #000; background: #888888; margin-top: 1px; padding-left: 10px; }
+
+.xBox_3 ul { margin-top: -10px; }
+
+.xBox_3 ul li { float: left; border-top: 1px solid #ccc; border-bottom: 1px solid #EEE; width: 126px; height: 38px; padding-left: 15px; }
+
+.xBox_3 ul li a { display: block; position: relative; }
+
+.xBox_3 ul li .fs { display: block; margin-left: 10px; position: absolute; left: 29px; top: 10px; }
+
+.xBox_3 h3 { display: block; width: 128px; height: 36px; border-right: 1px solid #EEE; margin-top: 48px; }
+
+.xBox_3 ul li:nth-child(2) { border-left: 1px solid #EEE; border-right: 1px solid #EEE; }
+
+.container h4 { font-size: 14px; text-align: center; margin-top: 70px; margin-left: 100px; }

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* { margin: 0px; padding: 0px; }
+
+#shangpin, .container { width: 1200px; margin: 0px auto; }
+
+.shangpin_ding ul { margin-left: 15px; }
+
+.shangpin_ding .ul_2 { border-top: 1px solid red; }
+
+.shangpin_ding ul li img { margin-top: 10px; width: 1200px; }
+
+.shangpin_ding .shuju { border: 1px solid #ccc; height: 255px; width: 1200px; margin: 10px 0px; margin-left: 15px; position: relative; }
+
+.shangpin_ding .shuju ul { float: left; }
+
+.shangpin_ding .shuju ul li { float: left; }
+
+.shangpin_ding .shuju ul li:nth-child(1) { position: relative; }
+
+.shangpin_ding .shuju ul li:nth-child(1) span { position: absolute; left: 50px; top: 11px; }
+
+.shangpin_ding .shuju ul li a { display: block; font-size: 14px; line-height: 46px; margin-right: 38px; }
+
+/*.shangpin_ding .ul_1{margin-left:310px;}*/
+.ul_6 { position: absolute; left: 0px; top: 90px; }
+
+.ul_6 .queren { margin-top: 10px; margin-left: 10px; width: 60px; height: 25px; }
+
+.ul_6 .jg input { border: 1px solid #ccc; width: 60px; height: 25px; margin-top: 10px; padding-left: 10px; }
+
+.ul_7 { position: absolute; left: 0px; top: 130px; }
+
+.ul_7 .xb { float: left; margin-top: 10px; padding-left: 10px; }
+
+.ul_8 { position: absolute; left: 0px; top: 165px; }
+
+.ul_9 { position: absolute; left: 0px; top: 200px; }
+
+.shangpin_t { width: 1500px; height: 30px; float: right; }
+
+.shangpin_l ul { float: left; }
+
+.shangpin_l ul li { float: left; /*margin-right: 10px;*/ }
+
+.shangpin_l ul li a { display: block; float: left; height: 30px; width: 63px; background: #F0F0F0; font-size: 14px; line-height: 26px; margin-right: 10px; text-align: center; color: #000; }
+
+.shangpin_l ul #jg { display: block; float: left; height: 30px; width: 75px; background: #F0F0F0; font-size: 14px; line-height: 26px; margin-right: 10px; text-align: center; color: #000; }
+
+.shangpin_l ul li:nth-child(1) { margin-left: 310px; }
+
+.shangpin_l ul li:nth-child(2), .shangpin_l ul li:nth-child(3) { position: relative; }
+
+.shangpin_l ul li:nth-child(2) i { display: block; background: url("../img/jtx.png") no-repeat; width: 34px; height: 31px; position: absolute; left: 54px; top: 5px; }
+
+.shangpin_l ul li:nth-child(3) i { display: block; background: url("../img/jtx.png") no-repeat; width: 34px; height: 31px; position: absolute; left: 45px; top: 5px; }
+
+.shangpin_r ul { float: right; background: #F0F0F0; margin-right: -14px; width: 827px; height: 30px; }
+
+.shangpin_r ul li { float: left; padding-left: 63px; margin-left: 10px; line-height: 30px; }
+
+.shangpin_r ul li:nth-child(1) { margin-right: -75px; padding-left: 438px; }
+
+.shangpin_r ul li:nth-child(2) { margin-right: -75px; }
+
+.shangpin_r ul li:nth-child(3) { margin-right: -75px; /*padding-left:325px;*/ }
+
+.shangpin_r ul li:nth-child(4) { margin-right: -55px; /*padding-left:430px;*/ }
+
+.shangpin_r ul li:nth-child(5) { margin-right: -55px; /*padding-left:490px;*/ }
+
+.shangpin_r ul li:nth-child(6) { margin-right: -55px; /*padding-left:548px;*/ }
+
+.shangpin_r ul li a { display: block; color: #000; font-size: 10px; line-height: 26px; margin-right: 20px; }
+
+.shangpin_r ul li a:hover { color: red; }
+
+#datalist { width: 1500px; float: right; }
+
+#datalist ul { float: right; }
+
+#datalist ul li { float: left; margin: 0px 15px; width: 268px; height: 540px; font-size: 18px; }
+
+#datalist ul li img { width: 268px; height: 395px; }
+
+#datalist ul li h6 { padding-top: 5px; }
+
+#datalist ul li h6 a { display: block; font-size: 12px; line-height: 16px; color: #000; margin-bottom: -23px; margin-left: 0px; font-weight: 800; }
+
+#datalist ul li h4 a, #datalist ul li h5 { display: block; font-size: 12px; line-height: 16px; color: #000; }
+
+#datalist ul li h6 .zk { font-size: 12px; line-height: 16px; color: #000; }
+
+#datalist ul li p { width: 55px; height: 25px; line-height: 25px; margin-top: -45px; margin-left: 213px; border: 1px solid #f00; text-align: center; color: red; }
+
+#datalist ul li span { font-size: 10px; line-height: 16px; margin-bottom: -65px; margin-left: 45px; text-decoration: line-through; }
+
+/*#datalist ul li:nth-child(1),#datalist ul li:nth-child(5),#datalist ul li:nth-child(9),#datalist ul li:nth-child(13),#datalist ul li:nth-child(17){margin-left: 5px;}*/
+.shangpin_n_x { width: 1200px; float: right; margin-right: 140px; }
+
+.shangpin_n_x ul { float: right; margin-top: 20px; }
+
+.shangpin_n_x ul li { float: left; }
+
+.shangpin_n_x ul li:nth-child(6) { margin-right: -20px; }
+
+.shangpin_n_x ul li:nth-child(7) { margin: 0px -10px; }
+
+.shangpin_n_x ul li a { display: block; color: #000; font-size: 10px; line-height: 26px; margin-right: 20px; }
+
+.shangpin_n_x ul li a:hover { color: red; }
+
+/*.shangpin_n_x ul li:nth-child(1) a i{display:block;background:url('../images/zj.png') no-repeat;width: 20px;height: 20px;position: absolute;left:790px;top:1402px;}
+.shangpin_n_x ul li:nth-child(7) a i{display:block;background:url('../images/yj.png') no-repeat;width: 20px;height: 20px;position: absolute;left:965px;top:1402px;}*/
+/*商品列表*/
+.goods-list { width: 1200px; margin: 0px auto; margin-left: 170px; }
+
+.goods-list ul { list-style: none; }
+
+.goods-list li { display: inline-block; width: 230px; position: relative; margin-bottom: 10px; margin-right: 10px; }
+
+.goods-list li:nth-child(5), .goods-list li:nth-child(10) { margin-right: 0px; margin-left: 10px; }
+
+.goods-list li:hover { background-color: #efefef; }
+
+.goods-list li img { height: 300px; width: 230px; }
+
+.goods-list li h4 { margin: 10px 0px; }
+
+.goods-list .price { color: #f00; font-weight: bold; }
+
+.goods-list .price::before { content: "￥"; }
+
+.add2cart { position: absolute; left: 199px; top: 312px; color: red; border: 1px solid; background: #fff; }
